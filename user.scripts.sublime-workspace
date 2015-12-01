@@ -1,0 +1,599 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"norm",
+				"normalsize	latex-document"
+			],
+			[
+				"usepack",
+				"usepackage{package}	latex-document"
+			],
+			[
+				"newl",
+				"newline	latex-document"
+			],
+			[
+				"subtitle",
+				"subsection*{title}	latex-document"
+			],
+			[
+				"begindocu",
+				"begin{document}	latex-document"
+			],
+			[
+				"encode",
+				"encodeAuth"
+			],
+			[
+				"config",
+				"configExec"
+			],
+			[
+				"Config",
+				"Configuration"
+			],
+			[
+				"ex",
+				"execLogin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "#!/bin/bash\n\n# read-secret: input a secret passphrase\n\nif read -t 10 -sp \"Enter secret passphrase > \" secret_pass; then\n    echo -e \"\\nSecret passphrase = '$secret_pass' \"\nelse\n    echo -e \"\\nInput time out\" >&2\n    exit 1\nfi",
+			"file": "read/read-secret.sh",
+			"file_size": 224,
+			"file_write_time": 130927418640000000,
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Unix",
+				"name": "#!/bin/bash"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "termi",
+		"selected_items":
+		[
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Nodejs::NPM::Uninstall"
+			],
+			[
+				"got pdf",
+				"LaTeXing: Jump To PDF"
+			],
+			[
+				"tex ",
+				"LaTeXing: Documentation"
+			],
+			[
+				"latex",
+				"LaTeXing: Jump To PDF"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"latex sy",
+				"LaTeXing: Check System"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"docker",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packaddr",
+				"Package Control: Add Repository"
+			],
+			[
+				"vim",
+				"Vintageous: Toggle Vim Ctrl Keys"
+			],
+			[
+				"latex se",
+				"Preferences: LaTeXing Settings - Default"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"adv",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"syntaxtext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Contr in",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			]
+		],
+		"width": 638.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			"l",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dank/bin",
+		"/Users/dank/bin/read"
+	],
+	"file_history":
+	[
+		"/Users/dank/bin/read/read-single-prompt.sh",
+		"/Users/dank/bin/read/read-single.sh",
+		"/Users/dank/bin/read/evaluate.sh",
+		"/Users/dank/bin/read/read-multiple.sh",
+		"/Users/dank/Documents/Personal/Documents/Personal Statement/Personal Statement v2.tex",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dank/Documents/Personal/Documents/Personal Statement/Personal Statement.tex",
+		"/Users/dank/Documents/Personal/Documents/Conversations.md",
+		"/Users/dank/Documents/Personal/Documents/Personal Statement.tex",
+		"/Users/dank/Documents/School/Math/Math 3B (Calc II)/Notes/Typed Notes/Calculus II Sequences and Series.tex",
+		"/Users/dank/Documents/School/Physics/Dan Karlsson/Labs/Lab - 011/Moments of Inertia.tex",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/dank/Documents/School/Physics/Dan Karlsson/Labs/Lab - 011/Moments_of_Inertia.log",
+		"/Users/dank/Documents/School/Physics/Dan Karlsson/Labs/Lab - 06/Moments of Inertia.tex",
+		"/Users/dank/Downloads/text.tex",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/dank/Documents/test.tex",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Chef-Attributes.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Maven-cookbook.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Python-Cookbook.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Java-Cookbook.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Artifact-Deployer-README.html",
+		"/Users/dank/Shell Scripts/shell_profile_01",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/dank/Shell Scripts/brads_aliases.md",
+		"/Users/dank/git/open-mbee/EMS-Repo/src/main/amp/config/alfresco/extension/templates/webscripts/gov/nasa/jpl/utils/adminuser.post.json.ftl",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Diff Merge Fix Result 1.2.md",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Terminal Output.md",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Workspace Most.txt",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/post delete element.txt",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Diff Merge Fix Result.txt",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/repo.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/tomcat-instance-config.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/attributes/alfrescoproperties.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/jmx-setup.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/attributes/default.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/nodes/share.json",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/_repo-attributes.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/tomcat.rb",
+		"/Users/dank/Documents/Vagrant-docker Alfresco Chef",
+		"/Users/dank/Documents/Computer Science/Code Snippets/Command Line Cheat Sheet.md",
+		"/Users/dank/Desktop/Test Excel to html.htm",
+		"/Users/dank/mbee-dev/usr-lib/Change Flags Script.txt",
+		"/Users/dank/Documents/Computer Science/Code Snippets/Regex Examples.txt",
+		"/Volumes/launch-systems-engineering/www/js/testDataDir/vehicleElements/falconHeavyElements.json",
+		"/Users/dank/mbee-dev/usr-lib/REST Parameter Request.js",
+		"/Users/dank/mbee-dev/usr-lib/Get Version History Rest call.txt",
+		"/Users/dank/mbee-dev/usr-lib/MD MMS Version Check.md",
+		"/Volumes/launch-systems-engineering/www/js/app.js",
+		"/Volumes/launch-systems-engineering/www/js/controllers.js",
+		"/Users/dank/mbee-dev/alfresco-view-repo/test-data/javawebscripts/regression_lib.py",
+		"/Users/dank/git/libs/angular-src/angular-ui/bootstrap/Gruntfile.js",
+		"/Users/dank/mbee-dev/usr-lib/getElementHistory.md",
+		"/Users/dank/mbee-dev/launch-app/js/app.js",
+		"/Users/dank/Documents/School/Saddleback Groups/same/documents/img/ImageFormat.json",
+		"/Volumes/launch-systems-engineering/www/lib/mmsAppFullDoc1414.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.870bc66f477a4621.js",
+		"/Volumes/launch-systems-engineering/www/lib/mmsApp.controllers123.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.directives.tpls.8e7cc8559baa7806.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.directives.c974480436f73bea.js",
+		"/Volumes/launch-systems-engineering/www/lib/mmsControllers243.js",
+		"/Users/dank/Documents/Server Side Development Files/mms.directives.js",
+		"/Users/dank/Documents/Server Side Development Files/mmsApp.controllers123.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.directives.js",
+		"/Users/dank/Documents/Server Side Development Files/mmsAppFullDoc1414.js",
+		"/Users/dank/mbee-dev/angular-mms/app/mmsFullDoc.html",
+		"/Users/dank/mbee-dev/angular-mms/app/mms.html",
+		"/Users/dank/mbee-dev/angular-mms/Gruntfile.js",
+		"/Users/dank/mbee-dev/angular-mms/build/index.html",
+		"/Users/dank/mbee-dev/angular-mms/app/index.html",
+		"/Users/dank/mbee-dev/launch-app/index.html",
+		"/Users/dank/mbee-dev/alfresco-view-repo/test-data/javawebscripts/historyget.sh",
+		"/Users/dank/Documents/Computer Science/Courses/Coursera/Java-Coursera/Week 3/Project/Week Objectives.md",
+		"/Users/dank/Documents/School/Saddleback Groups/same/web-app/app/partials/aboutUs.html",
+		"/Users/dank/Documents/School/Saddleback Groups/same/img source path.txt",
+		"/Users/dank/Documents/School/Saddleback Groups/same/web-app/package.json",
+		"/Users/dank/mbee-dev/Share Login Error 10:20:15 5:45PM.txt",
+		"/Users/dank/Documents/Earthquakes.xml",
+		"/Users/dank/Documents/Computer Science/Courses/Coursera/Java-Coursera/Resources/UCSDUnfoldingMaps/src/module3/EarthquakeCityMap.java",
+		"/Users/dank/mbee-dev/launch-app/js/directives/launchLogin.js",
+		"/Users/dank/mbee-dev/angular-mms/app/js/mms/appFullDoc.js",
+		"/Users/dank/mbee-dev/launch-app/js/services/userService.js",
+		"/Users/dank/mbee-dev/launch-app/js/controllers/loginCtrl.js",
+		"/Users/dank/mbee-dev/alfresco-view-repo/README.md",
+		"/Users/dank/mbee-dev/usr-lib/ssdg-doc.md",
+		"/Users/dank/mbee-dev/Data/Regression Failures/Server Ouput Regression 10-09-15 11:58am.txt",
+		"/Users/dank/mbee-dev/Data/Regression Failures/Server Ouput Regression 10-09-15.txt",
+		"/Users/dank/mbee-dev/Data/Regression Failures/Regression Test Failures 10-09-15 11:58am.txt",
+		"/Users/dank/mbee-dev/Data/Regression Failures/Regression Test Failures 10-09-15.txt",
+		"/Users/dank/mbee-dev/launch-app/bower_components/angular-utf8-base64/angular-utf8-base64.js",
+		"/Users/dank/mbee-dev/launch-app/partials/test/test.login.html",
+		"/Users/dank/mbee-dev/launch-app/package.json",
+		"/Users/dank/mbee-dev/launch-app/js/services/UserService.js",
+		"/Users/dank/Documents/Computer Science/Books/AngularJS/Chapter 3/authentication_example.html",
+		"/Users/dank/Documents/Computer Science/Books/AngularJS/Chapter 8/interceptor_example_3.html",
+		"/Users/dank/Downloads/AngularJS-HTTP.md",
+		"/Users/dank/Documents/Computer Science/Books/AngularJS/Chapter 8/angular.js",
+		"/Users/dank/Documents/Computer Science/Books/AngularJS/Chapter 10.zip",
+		"/Users/dank/mbee-dev/Klang/src/k.el",
+		"/Users/dank/Documents/School/saddleback/same/web-app/style/palettes/CSS RBY Pastel.css",
+		"/Users/dank/Documents/School/saddleback/same/web-app/style/palettes/SAME Sass RBY.scss",
+		"/Users/dank/Documents/School/saddleback/same/web-app/style/palettes/SAME rby.css",
+		"/Users/dank/Documents/School/saddleback/same/web-app/style/palettes/Sass RBY Pastel.scss",
+		"/Users/dank/git/mbee-dev/Klang/src/k/frontend/css.css",
+		"/Users/dank/git/mbee-dev/Klang/src/k/frontend/Same RBY.css",
+		"/Users/dank/git/mbee-dev/Klang/src/k/frontend/sda",
+		"/Users/dank/git/mbee-dev/Klang/src/k/frontend/RBY.css",
+		"/Users/dank/git/mbee-dev/Klang/src/k/frontend/BackupKlangclasspath.xml",
+		"/Users/dank/Documents/MDev/klang/BackupKlangCpath.xml",
+		"/Users/dank/git/mbee-dev/Klang/src/k/frontend/Frontend.scala",
+		"/Users/dank/git/mbee-dev/usr-lib/ssdg-doc.md",
+		"/Users/dank/Documents/MDev/server-side/Create XHR Object.txt",
+		"/Users/dank/git/open-mbee/ProjectWiki/README.md",
+		"/Users/dank/Documents/MDev-documents/server-side/Create XHR Object.txt",
+		"/Users/dank/Documents/Launch Systems Engineering/JSONs/secondaryLaunchSystems.json",
+		"/Users/dank/Documents/Launch Systems Engineering/JSONs/Meetings.json",
+		"/Users/dank/Documents/Launch Systems Engineering/JSONs/Europa Delta IV H Data.json",
+		"/Users/dank/Documents/Launch Systems Engineering/JSONs/Europa Launch Phase.json",
+		"/Users/dank/Documents/Launch Systems Engineering/JSONs/Europa LS-FS IRD.json",
+		"/Users/dank/Documents/Launch Systems Engineering/JSONs/Europa Mission Concept.json",
+		"/Users/dank/git/mbee-projects/angular-mms/app/js/mms/appFullDoc.js",
+		"/Users/dank/git/mbee-projects/angular-mms/app/js/mms/app.js",
+		"/Users/dank/git/mbee-projects/angular-mms/src/services/URLService.js",
+		"/Users/dank/git/mbee-projects/launch-app/docs/Build Document Tree.md",
+		"/Users/dank/Documents/MDev-documents/server-side/Europaems Request Headers for Element.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"10\\^n",
+			"^n",
+			"convert",
+			"tab",
+			"theme",
+			"under",
+			"car",
+			"und",
+			"Vint",
+			"x",
+			"vin",
+			"vinta",
+			"open",
+			"* ",
+			"\n*",
+			"* ",
+			"user",
+			"original",
+			"font",
+			"tabs",
+			"dank",
+			"(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\" ]+)",
+			"(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\"]+)",
+			"(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\"]*)",
+			"*(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\"]*)",
+			"*(<t. [a-z]*=[^ ]* *)([^=]*=)([^'\"]*)",
+			"(<t. )([a-z]*=[^ ]*)([a-z]*=[^ ]*)([^ ]*)",
+			"(<t. [a-z]*=)([^ ]*)",
+			"jpe",
+			"falcon",
+			"china",
+			"time",
+			"withC",
+			"HttpS",
+			"Http",
+			"Hhttp",
+			"HTPP",
+			"Elemen",
+			"URLS",
+			"$http.",
+			"$http.h",
+			"withCre",
+			"testL",
+			"~/mbee-dev",
+			"hist",
+			".m2",
+			"getElements",
+			"getElement",
+			"getElem",
+			"cross",
+			"________________________________________",
+			"-u",
+			"Sysmlid",
+			"get",
+			"_17_0_5_1_f280366_1439405507276_55982_61716",
+			"_17_0_5_1_f2c035b_1435251033586_15023_58485",
+			"_17_0_5_1_f2c035b_1435250192087_738628_57946"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\\1\\2\"\\3\"",
+			"\\1\"\\2\"",
+			"..",
+			"../",
+			"________________________________________________________________________________________________________________________"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "read/read-secret.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"WordCountSyntax": "shell-unix-generic",
+							"auto_name": "#!/bin/bash",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 1
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 177.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "user.scripts.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/School/Math/Math 3B (Calc II)/Notes/Typed Notes/Calculus II Sequences and Series.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 327.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search_command": "vi_octothorp",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/dank/bin/read"
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 101.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

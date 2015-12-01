@@ -1,0 +1,685 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max_word"
+			],
+			[
+				"Ds",
+				"Display"
+			],
+			[
+				"file",
+				"file_info"
+			],
+			[
+				"fil",
+				"file_into"
+			],
+			[
+				"documentclass",
+				"documentclass{style}	latex-document"
+			],
+			[
+				"norm",
+				"normalsize	latex-document"
+			],
+			[
+				"usepack",
+				"usepackage{package}	latex-document"
+			],
+			[
+				"newl",
+				"newline	latex-document"
+			],
+			[
+				"subtitle",
+				"subsection*{title}	latex-document"
+			],
+			[
+				"begindocu",
+				"begin{document}	latex-document"
+			],
+			[
+				"encode",
+				"encodeAuth"
+			],
+			[
+				"config",
+				"configExec"
+			],
+			[
+				"Config",
+				"Configuration"
+			],
+			[
+				"ex",
+				"execLogin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "examples/Strings-Numbers/mng-empty-var.sh",
+			"settings":
+			{
+				"buffer_size": 1933,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"",
+				":$ - EOF"
+			],
+			[
+				"depen",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"package",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"insta",
+				"Nodejs::NPM::Uninstall"
+			],
+			[
+				"depend",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pack",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"vim",
+				"Vintageous: Toggle Vim Ctrl Keys"
+			],
+			[
+				"termin",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"latex pdf",
+				"LaTeXing: Open PDF"
+			],
+			[
+				"pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"latex",
+				"LaTeXing: Fill Anywhere"
+			],
+			[
+				"packageinst",
+				"Package Control: List Packages"
+			],
+			[
+				"latex pa",
+				"LaTeXTools: Build cache for LaTeX packages"
+			],
+			[
+				"latexing",
+				"Set Syntax: LaTeXing Beamer"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"got pdf",
+				"LaTeXing: Jump To PDF"
+			],
+			[
+				"tex ",
+				"LaTeXing: Documentation"
+			],
+			[
+				"latex sy",
+				"LaTeXing: Check System"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"docker",
+				"Set Syntax: Dockerfile"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packaddr",
+				"Package Control: Add Repository"
+			],
+			[
+				"latex se",
+				"Preferences: LaTeXing Settings - Default"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"adv",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"syntaxtext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Contr in",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			]
+		],
+		"width": 1108.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			"l",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/dank/git/scripts",
+		"/Users/dank/git/scripts/examples",
+		"/Users/dank/git/scripts/examples/Strings-Numbers",
+		"/Users/dank/git/scripts/shell/config"
+	],
+	"file_history":
+	[
+		"/Users/dank/git/scripts/examples/positional-parameters/posit-param3.sh",
+		"/Users/dank/git/scripts/examples/loops/for loops/longest-word.sh",
+		"/Users/dank/git/scripts/examples/loops/for loops/longest-word2.sh",
+		"/Users/dank/git/scripts/examples/simple-apps/file_info.sh",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/dank/git/scripts/Keyboard Shortcuts - OSX.md",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/dank/git/scripts/Sublime Keyboard Shortcuts.html",
+		"/Users/dank/git/scripts/examples/positional-parameters/posit-param2.sh",
+		"/Users/dank/git/scripts/examples/loops/while-read.sh",
+		"/Users/dank/git/scripts/examples/loops/while-read2.sh",
+		"/Users/dank/git/scripts/examples/positional-parameters/posit-param.sh",
+		"/Users/dank/git/scripts/examples/src/distros.txt",
+		"/Users/dank/git/scripts/examples/while/while-menu2.sh",
+		"/Users/dank/git/scripts/examples/until/until-count.sh",
+		"/Users/dank/git/scripts/examples/while/while-menu.sh",
+		"/Users/dank/git/scripts/examples/read/read-menu.sh",
+		"/Users/dank/git/scripts/examples/read-menu.sh",
+		"/Users/dank/git/scripts/shell/validation.sh",
+		"/Users/dank/git/scripts/examples/validate-input/read-validate.sh",
+		"/Users/dank/git/scripts/examples/options/read-ifs.sh",
+		"/Users/dank/git/scripts/examples/options/read-secret.sh",
+		"/Users/dank/git/scripts/examples/Strings-Numbers/arithmetic-eval-expand.sh",
+		"/Users/dank/git/scripts/examples/options/read-single.sh",
+		"/Users/dank/git/scripts/examples/Strings-Numbers/longest-word3.sh",
+		"/Users/dank/git/scripts/examples/sys_info_page_02.sh",
+		"/Users/dank/git/scripts/examples/Strings-Numbers/mng-empty-var.sh",
+		"/Users/dank/git/scripts/examples/sys_info_page.sh",
+		"/Users/dank/git/scripts/Bash Scripts/functions/system-info.sh",
+		"/Users/dank/git/scripts/Bash Scripts/complete/sys_info_page.sh",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/dank/git/scripts/shell/utilities.sh",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/dank/git/scripts/shell/shell.config.sh",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/Terminality.sublime-settings",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/dank/Documents/School/Physics/Dan Karlsson/Lectures/Chapter 13 Gravitation/Lecture Notes 11-24.tex",
+		"/Users/dank/bin/read/read-single-prompt.sh",
+		"/Users/dank/bin/read/read-single.sh",
+		"/Users/dank/bin/read/evaluate.sh",
+		"/Users/dank/bin/read/read-multiple.sh",
+		"/Users/dank/Documents/Personal/Documents/Personal Statement/Personal Statement v2.tex",
+		"/Users/dank/Documents/Personal/Documents/Personal Statement/Personal Statement.tex",
+		"/Users/dank/Documents/Personal/Documents/Conversations.md",
+		"/Users/dank/Documents/Personal/Documents/Personal Statement.tex",
+		"/Users/dank/Documents/School/Math/Math 3B (Calc II)/Notes/Typed Notes/Calculus II Sequences and Series.tex",
+		"/Users/dank/Documents/School/Physics/Dan Karlsson/Labs/Lab - 011/Moments of Inertia.tex",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/dank/Documents/School/Physics/Dan Karlsson/Labs/Lab - 011/Moments_of_Inertia.log",
+		"/Users/dank/Documents/School/Physics/Dan Karlsson/Labs/Lab - 06/Moments of Inertia.tex",
+		"/Users/dank/Downloads/text.tex",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/dank/Documents/test.tex",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Chef-Attributes.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Maven-cookbook.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Python-Cookbook.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Java-Cookbook.html",
+		"/Users/dank/mbee-dev/docker-mms/Documents/Vendor CookBooks/Artifact-Deployer-README.html",
+		"/Users/dank/Shell Scripts/shell_profile_01",
+		"/Users/dank/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/dank/Shell Scripts/brads_aliases.md",
+		"/Users/dank/git/open-mbee/EMS-Repo/src/main/amp/config/alfresco/extension/templates/webscripts/gov/nasa/jpl/utils/adminuser.post.json.ftl",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Diff Merge Fix Result 1.2.md",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Terminal Output.md",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Workspace Most.txt",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/post delete element.txt",
+		"/Users/dank/mbee-dev/usr-lib/Merge Diff/Diff Merge Fix Result.txt",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/repo.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/tomcat-instance-config.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/attributes/alfrescoproperties.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/jmx-setup.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/attributes/default.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/nodes/share.json",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/_repo-attributes.rb",
+		"/Users/dank/git/alfresco/chef-alfresco/recipes/tomcat.rb",
+		"/Users/dank/Documents/Vagrant-docker Alfresco Chef",
+		"/Users/dank/Documents/Computer Science/Code Snippets/Command Line Cheat Sheet.md",
+		"/Users/dank/Desktop/Test Excel to html.htm",
+		"/Users/dank/mbee-dev/usr-lib/Change Flags Script.txt",
+		"/Users/dank/Documents/Computer Science/Code Snippets/Regex Examples.txt",
+		"/Volumes/launch-systems-engineering/www/js/testDataDir/vehicleElements/falconHeavyElements.json",
+		"/Users/dank/mbee-dev/usr-lib/REST Parameter Request.js",
+		"/Users/dank/mbee-dev/usr-lib/Get Version History Rest call.txt",
+		"/Users/dank/mbee-dev/usr-lib/MD MMS Version Check.md",
+		"/Volumes/launch-systems-engineering/www/js/app.js",
+		"/Volumes/launch-systems-engineering/www/js/controllers.js",
+		"/Users/dank/mbee-dev/alfresco-view-repo/test-data/javawebscripts/regression_lib.py",
+		"/Users/dank/git/libs/angular-src/angular-ui/bootstrap/Gruntfile.js",
+		"/Users/dank/mbee-dev/usr-lib/getElementHistory.md",
+		"/Users/dank/mbee-dev/launch-app/js/app.js",
+		"/Users/dank/Documents/School/Saddleback Groups/same/documents/img/ImageFormat.json",
+		"/Volumes/launch-systems-engineering/www/lib/mmsAppFullDoc1414.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.870bc66f477a4621.js",
+		"/Volumes/launch-systems-engineering/www/lib/mmsApp.controllers123.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.directives.tpls.8e7cc8559baa7806.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.directives.c974480436f73bea.js",
+		"/Volumes/launch-systems-engineering/www/lib/mmsControllers243.js",
+		"/Users/dank/Documents/Server Side Development Files/mms.directives.js",
+		"/Users/dank/Documents/Server Side Development Files/mmsApp.controllers123.js",
+		"/Volumes/launch-systems-engineering/www/lib/mms.directives.js",
+		"/Users/dank/Documents/Server Side Development Files/mmsAppFullDoc1414.js",
+		"/Users/dank/mbee-dev/angular-mms/app/mmsFullDoc.html",
+		"/Users/dank/mbee-dev/angular-mms/app/mms.html",
+		"/Users/dank/mbee-dev/angular-mms/Gruntfile.js",
+		"/Users/dank/mbee-dev/angular-mms/build/index.html",
+		"/Users/dank/mbee-dev/angular-mms/app/index.html",
+		"/Users/dank/mbee-dev/launch-app/index.html",
+		"/Users/dank/mbee-dev/alfresco-view-repo/test-data/javawebscripts/historyget.sh",
+		"/Users/dank/Documents/Computer Science/Courses/Coursera/Java-Coursera/Week 3/Project/Week Objectives.md",
+		"/Users/dank/Documents/School/Saddleback Groups/same/web-app/app/partials/aboutUs.html",
+		"/Users/dank/Documents/School/Saddleback Groups/same/img source path.txt",
+		"/Users/dank/Documents/School/Saddleback Groups/same/web-app/package.json",
+		"/Users/dank/mbee-dev/Share Login Error 10:20:15 5:45PM.txt",
+		"/Users/dank/Documents/Earthquakes.xml",
+		"/Users/dank/Documents/Computer Science/Courses/Coursera/Java-Coursera/Resources/UCSDUnfoldingMaps/src/module3/EarthquakeCityMap.java",
+		"/Users/dank/mbee-dev/launch-app/js/directives/launchLogin.js",
+		"/Users/dank/mbee-dev/angular-mms/app/js/mms/appFullDoc.js",
+		"/Users/dank/mbee-dev/launch-app/js/services/userService.js",
+		"/Users/dank/mbee-dev/launch-app/js/controllers/loginCtrl.js",
+		"/Users/dank/mbee-dev/alfresco-view-repo/README.md",
+		"/Users/dank/mbee-dev/usr-lib/ssdg-doc.md",
+		"/Users/dank/mbee-dev/Data/Regression Failures/Server Ouput Regression 10-09-15 11:58am.txt"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 195.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\|",
+			"------------ | -------------------",
+			"10",
+			"_EOF_",
+			"<EOF",
+			"- _EOF_",
+			"line",
+			"end",
+			"eof",
+			"font",
+			"10\\^n",
+			"^n",
+			"convert",
+			"tab",
+			"theme",
+			"under",
+			"car",
+			"und",
+			"Vint",
+			"x",
+			"vin",
+			"vinta",
+			"open",
+			"* ",
+			"\n*",
+			"* ",
+			"user",
+			"original",
+			"font",
+			"tabs",
+			"dank",
+			"(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\" ]+)",
+			"(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\"]+)",
+			"(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\"]*)",
+			"*(<t. [a-z]*=[^ ]*  *)([^=]*=)([^'\"]*)",
+			"*(<t. [a-z]*=[^ ]* *)([^=]*=)([^'\"]*)",
+			"(<t. )([a-z]*=[^ ]*)([a-z]*=[^ ]*)([^ ]*)",
+			"(<t. [a-z]*=)([^ ]*)",
+			"jpe",
+			"falcon",
+			"china",
+			"time",
+			"withC",
+			"HttpS",
+			"Http",
+			"Hhttp",
+			"HTPP",
+			"Elemen",
+			"URLS",
+			"$http.",
+			"$http.h",
+			"withCre",
+			"testL",
+			"~/mbee-dev",
+			"hist",
+			".m2",
+			"getElements",
+			"getElement",
+			"getElem",
+			"cross",
+			"________________________________________",
+			"-u",
+			"Sysmlid",
+			"get",
+			"_17_0_5_1_f280366_1439405507276_55982_61716",
+			"_17_0_5_1_f2c035b_1435251033586_15023_58485",
+			"_17_0_5_1_f2c035b_1435250192087_738628_57946"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"            \\|",
+			"",
+			"---- | ----",
+			"",
+			"EOF",
+			" EOF",
+			"EOF",
+			"",
+			"\\1\\2\"\\3\"",
+			"\\1\"\\2\"",
+			"..",
+			"../",
+			"________________________________________________________________________________________________________________________"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "examples/Strings-Numbers/mng-empty-var.sh",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "shell-unix-generic",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 177.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "scripts.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/School/Math/Math 3B (Calc II)/Notes/Typed Notes/Calculus II Sequences and Series.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 327.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "'",
+		"_vintageous_last_buffer_search_command": "vi_octothorp",
+		"_vintageous_last_char_search_command": "vi_t",
+		"_vintageous_last_character_search": "r",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/dank/git/scripts/examples/simple-apps"
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

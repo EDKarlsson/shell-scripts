@@ -1,0 +1,62 @@
+
+Script: add view to view (same as in view editor),
+addview sysmlIdOfViewToAdd sysmlIdOfViewToWhichTheOtherViewIsAdded
+
+Service:
+To add view to view (same behavior as above but with a URL specific to it)
+
+Maybe create a service for POSTing to https://ems/alfresco/service/workspaces/workspaceId/views/subViewId/parentViewId with no data/payload
+
+For reference, here’s a command that posts views from a json file:
+curl -w "\n%{http_code}\n" -u admin:admin -X POST -H "Content-Type:application/json" --data @JsonData/views.json "http://localhost:8080/alfresco/service/workspaces/master/views"
+
+For reference, here’s the RAML page: https://ems.jpl.nasa.gov/alfresco/mms/raml/index.html
+
+Other scripts:
+Some of these are easier than others, mainly because the URL already exists.
+The easier ones: 2, 3, 4, 9, 10, 11, 12, 13.  Special cases of 9 are 10, 12, and 13.  11 involves multiple calls to 9.
+It would be nice to include [workspace] and [timestamp] options wherever applicable — I only included it for the first one.
+
+idget sysmlidOrName [workspace] [timestamp]
+returns the sysml:id sysml:name cm:name and alfresco id of elements matching the id/name, workspace, and version at the specified time
+evaluate sysmlid
+just does a modelget adding the ?evaluate parameter
+evaluate “k expression”
+returns elements generated from parsing  k with evaluation results
+k “k expression”
+same as previous but returns just the evaluation result
+tok sysmlid
+return the k for this element; for example, if the element is an Expression, return the k equivalent expression
+aspectget sysmlid
+return the aspects of the sysmlid
+versionsget sysmlid
+return all of the versions of the element, adding a version label and alfresco id to the json of each element version
+versionsget sysmlid short
+return the version labels, ids, and modification dates of the element
+search “some string” (id, documentation, name, value, aspect, appliedMetatypes, metatypes)
+returns all elements with the string matching all or part of the specified attribute
+for example, search “my cat” documentation
+searchname name
+returns all elements with that name (or with that as a substring of the name)
+searchtype type
+returns all elements with that type, aspect, or metatype (or those with a matching substring)
+searchdoc “some string”
+return all elements whose documentation contains the given string
+searchvalue value
+returns all elements with that value or having that as a substring of the value
+childrenget sysmlid
+return all owned children
+propertyget sysmlId [propertyName]
+return all Property elements whose owner is this, with optional propertyName filtering the results
+relationshipget sysmlid [relationshipName]
+return all relationship elements involving this element, with optional relationshipName filtering the results
+targetget sysmlid [relationshipName]
+return all targets of relationships involving this element with optional relationshipName filtering the results
+otherendget sysmlid [relationshipIdOrName]
+return elements at the other end of relationships involving this element with optional relationshipIdOrName filtering the results
+constraintget sysmlid [evaluate]
+return all constraints in which the element is involved, optionally including the results of evaluating them
+
+
+
+
